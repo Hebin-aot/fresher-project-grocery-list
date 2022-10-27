@@ -1,5 +1,4 @@
 //selecting Items
-const alert = document.querySelector(".alert");
 const form = document.querySelector(".grocery-form");
 const grocery = document.getElementById("grocery");
 const submitBtn = document.querySelector(".submit-btn");
@@ -76,7 +75,7 @@ function addItem(e){
         setToDefault()
     }
     else{
-        alert.textContent=("empty")
+        alert("Please add an Item")
     }
 }
 
